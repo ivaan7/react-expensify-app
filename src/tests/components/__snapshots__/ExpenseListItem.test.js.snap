@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should reder list item with data 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/1"
+  >
+    gum
+  </Link>
+  195
+   
+  0
+</div>
+`;
