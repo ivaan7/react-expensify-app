@@ -8,8 +8,10 @@ exports[`should reder list item with data 1`] = `
   >
     gum
   </Link>
-  195
-   
-  0
+  <p>
+    $1.95
+    -
+    January 1st, 1970
+  </p>
 </div>
 `;
