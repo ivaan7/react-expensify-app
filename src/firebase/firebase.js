@@ -11,9 +11,12 @@ const config = {
 
 firebase.initializeApp(config);
 
+//instace of realtime database
 const database = firebase.database();
+//google provider for authentication
+const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
-export {firebase,database as default}; 
+export {firebase, googleAuthProvider, database as default}; 
 
 
 /*
