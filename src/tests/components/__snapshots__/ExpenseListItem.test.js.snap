@@ -1,17 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should reder list item with data 1`] = `
-<div>
-  <Link
-    replace={false}
-    to="/edit/1"
+<Link
+  className="list-item"
+  replace={false}
+  to="/edit/1"
+>
+  <div>
+    <h3
+      className="list-item__title"
+    >
+      gum
+    </h3>
+    <span
+      className="list-item__sub-title"
+    >
+      January 1st, 1970
+    </span>
+  </div>
+  <h3
+    className="list-item__data"
   >
-    gum
-  </Link>
-  <p>
     $1.95
-    -
-    January 1st, 1970
-  </p>
-</div>
+  </h3>
+</Link>
 `;
